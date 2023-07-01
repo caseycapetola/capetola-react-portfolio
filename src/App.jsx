@@ -1,9 +1,11 @@
+import NavBar from "./components/NavBar";
+
 function App() {
-  return (  
+  return (
     <>
-    <h1 className="text-4xl font-bold font-signature">Hello World!</h1>
+      <NavBar />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
